@@ -1,0 +1,108 @@
+        body {
+            font-family: "playfair", serif;
+            background-color: #edd1d1ff;
+        }
+        
+        #header {
+            background-color: #d3ada2;
+            color: #552329;
+            padding: 10px 0;
+            text-align: center;
+            width: 100%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .profil {
+            width: 60%;
+            text-align: center;
+            margin: 50px auto;
+            display: flex;
+            gap: 40px;
+        }
+        
+        .foto-profil {
+            width: 300px;
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            border: 5px solid #552329;
+            margin: 50px auto;
+            flex-shrink: 0;
+        }
+        
+        .isi-profil {
+            text-align: left;
+        }
+        
+        .isi-profil h2 {
+            margin-top: 0%;
+            margin-bottom: 15px;
+        }
+        
+        .isi-profil p {
+            text-align: justify;
+            margin: 15px auto;
+            font-size: 20px;
+        }
+        
+        .galeri {
+            text-align: center;
+        }
+        
+        .kartu-aktivitas {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #EADCD8;
+            width: 60%;
+            padding: 25px 20px;
+            border: 5px solid #552329;
+            border-radius: 15px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.5s ease-in-out, background-color 0.5s, color 0.5s;
+        }
+        
+        .kartu-aktivitas:hover {
+            transform: translateY(-10px);
+            background-color: #552329;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            color: #F5F5F5;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+        }
+        
+        .kartu-aktivitas img {
+            width: 65%;
+            border-radius: 10px;
+            margin-top: 15px;
+            border: solid 3px #552329;
+        }
+        
+        .kartu-aktivitas h3 {
+            font-weight: 400;
+        }
+        
+        .kartu-aktivitas p {
+            text-align: justify;
+            margin: 15px 15px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #d3ada2;
+            color: #552329;
+            bottom: 0;
+            width: 100%;
+        }
